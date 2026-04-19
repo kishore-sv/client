@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/sonner"
 import { TooltipProvider } from "@/components/ui/tooltip"
-import { title } from "node:process";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
@@ -13,8 +13,12 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
-export const metadata = {
-  title: "Client"
+export const metadata: Metadata = {
+  title: "Client",
+  description: "Client is a high-performance, browser-based API testing environment designed for speed and simplicity. It provides a \"zero-friction\" workflow where you can start testing APIs instantly without an account, while offering cloud synchronization and organization for power users.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
