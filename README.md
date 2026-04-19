@@ -2,7 +2,7 @@
 
 Client is a high-performance, browser-based API testing environment designed for speed and simplicity. It provides a "zero-friction" workflow where you can start testing APIs instantly without an account, while offering cloud synchronization and organization for power users.
 
-![Landing Page Preview](https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&q=80&w=2070)
+![Landing Page Preview](/public/preview-light.png)
 
 ## ✨ Features
 
